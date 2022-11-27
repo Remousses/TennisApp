@@ -1,0 +1,17 @@
+**/HELP.md
+**/target/
+!**/src/main/**
+!**/src/test/**
+**/.classpath
+**/.factorypath
+**/.project
+**/.settings
+**/.springBeans
+**/.vscode/
+**/dist
+**/tmp
+**/out-tsc
+**/node_modules
+**/package-lock.json
+**/.DS_Store
+**/Thumbs.db

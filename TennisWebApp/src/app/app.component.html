@@ -1,0 +1,14 @@
+<!--src\app\app.component.html-->
+<h1>
+  Angular + WebSockets
+</h1>
+<br>
+<div class="row">
+  <p *ngFor="let score of tennisGameScoreInfo$ | async">
+    {{ score }}
+  </p>
+</div>
+<br>
+<div class="row">
+  <p (click)="startNewGame()">Start new game</p>
+</div>
